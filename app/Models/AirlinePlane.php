@@ -11,7 +11,7 @@ class AirlinePlane extends Model
 
     protected $table = 'airline_planes';
 
-    protected $guarded = ['id'];
+    protected $guarded = [];
 
     public function company()
     {
